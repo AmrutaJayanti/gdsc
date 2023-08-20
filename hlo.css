@@ -21,10 +21,10 @@ body{
     padding-right : 1.5cm;
 }
 .container {
-    padding-top: 1cm;
-    margin-left :auto;
-    margin-right : auto;
-    padding-left : 15cm;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     
 }
 .table  {
@@ -32,11 +32,10 @@ body{
     
 }
 .add {
-    margin-right: auto;
-    margin-left : 19cm;
-   padding-left : auto;
-   padding-right: auto;
-   padding-top : 1px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
    background-color: #579cd8;
 
 }

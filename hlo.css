@@ -32,11 +32,10 @@ body{
     
 }
 .add {
-   display: flex;
+  display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-   background-color: #579cd8;
+     height: 2.5vh;
+    color: #579cd8;
 
 }
 .btn {

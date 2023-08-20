@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hi.css">
+    <title>Login Page</title>
+</head>
+<body>
+   
+    <div class="info">
+        <h2 class="login">Login</h2>
+    <div class="name" for="name">Username
+        <input id="name" placeholder="Enter username " required>
+    </div>
+    <div class="password" for="pass">
+        Password
+        <input id="pass" placeholder="Enter password" required >
+    </div>
+</div>
+  <div class="but">
+    <button type="button" onclick="enter()">Submit</button>
+  </div>
+<script>
+    
+    
+        function enter() {
+            
+            var user=document.getElementById('name').value;
+            var pass=document.getElementById('pass').value;
+            if(user==="gvpce" &&  pass==="we@12345_"){
+                window.location.href= 'data.html';
+            }else {
+                alert("Invalid Username or Password :( ");
+            }
+        }
+        
+            
+        
+        
+    
+</script>
+    
+    
+</body>
+</html>

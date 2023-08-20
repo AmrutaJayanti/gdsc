@@ -1,0 +1,45 @@
+body{
+    background-color: #a2a8d3;
+    display : block;
+   
+} 
+
+
+.title {
+    color : #113f67;
+    text-align : center;
+}
+.n , .r , .e, .p {
+    text-align: center;
+    padding-top : 4px;
+    padding-bottom:4px;
+}
+.r {
+    padding-left: 0.25cm;
+}
+.p {
+    padding-right : 1.5cm;
+}
+.container {
+    padding-top: 1cm;
+    margin-left :auto;
+    margin-right : auto;
+    padding-left : 15cm;
+    
+}
+.table  {
+    border : 2px solid #e7eaf6;
+    
+}
+.add {
+    margin-right: auto;
+    margin-left : 19cm;
+   padding-left : auto;
+   padding-right: auto;
+   padding-top : 1px;
+   background-color: #579cd8;
+
+}
+.btn {
+    background-color: #579cd8;
+}

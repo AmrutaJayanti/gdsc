@@ -1,0 +1,17 @@
+body {
+    background-color: #9fd3c7;
+    
+    
+}
+.info {
+   
+    display : block;
+    text-align : center;
+    color : #142d4c ;
+    
+}
+.but {
+    display : flex;
+    justify-content : center;
+    padding-top : 6px;
+}
